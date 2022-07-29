@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="bn">
+    <!--====================head====================-->
+    <head>
+        <meta name="description" content="Ludwig Royal Home">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#4285f4">
+        <meta property="og:image" content="images/logo/LUDWIG_ROYAL_Logo_schwarz.svg">
+        <meta property="og:image:type" content="image/jpg">
+        <meta property="og:image:width" content="1024">
+        <meta property="og:image:height" content="729">
+
+        <link rel="shortcut icon" href="images/logo/LUDWIG_ROYAL_Logo_schwarz.svg" type="image/x-icon">
+        <link rel="icon" href="images/logo/LUDWIG_ROYAL_Logo_schwarz.svg" type="image/x-icon">
+        <!--------->
+        <title>Booking-Form-Step-2 || BestSmile</title>
+
+        <!----Tailwind CSS----->
+        <link rel="stylesheet" href="output/tailwind.css">
+    </head>
+    <!--====================body====================-->
+    <body class="min-h-screen">
+        <!-- ==========header========== -->
+        <header class=" border-b-2 relative">
+            <!--====1st====-->
+            <div class=" flex items-center justify-between p-4 sm:border-b">
+                <!--========-->
+                <div>
+                    <!--========-->
+                    <a class=" text-xl" href="/">bestsmile</a>
+                </div>
+                <!--========-->
+                <button class=" outline-none text-sm flex items-center rounded-full py-1.5 px-3 border leading-none">
+                    <!--========-->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                    </svg>
+                    <!--========-->
+                    <span>de</span>
+                </button>
+            </div>
+            <!--====2nd====-->
+            <div class="sm:flex items-center justify-center gap-6 p-4 leading-none hidden">
+                <!--========-->
+                <div class=" flex items-center">
+                    <!--========-->
+                    <span class="h-6 w-6 rounded-full flex items-center justify-center bg-emerald-500 text-white mr-1.5">
+                        <!--========-->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            stroke-width="3">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                        </svg>
+                    </span>
+                    <!--========-->
+                    <span>Book appointment</span>
+                </div>
+                <!--========-->
+                <div class=" flex items-center">
+                    <!--========-->
+                    <span class="h-6 w-6 rounded-full flex items-center justify-center bg-black text-white mr-1.5">
+                        <!--========-->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            stroke-width="3">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                        </svg>
+                    </span>
+                    <!--========-->
+                    <span>Extra information</span>
+                </div>
+            </div>
+            <!--====bottom border====-->
+            <div class=" h-0.5 w-2/3 absolute left-0 top-full bg-blue-600"></div>
+        </header>
+        <!--====================main====================-->
+        <main>
+            <!-- ==========section 001========== -->
+            <section >
+                <!--========-->
+                <div class="bg-neutral-100">
+                    <!--========-->
+                    <div class="max-w-screen-sm mx-auto px-4 sm:px-0 pt-5">
+                        <!--========-->
+                        <div class=" flex flex-col items-center">
+                            <!--========-->
+                            <button class="text-sm flex items-center text-black border-b mb-5">
+                                <!--========-->
+                                <p class="mr-2">Hide booking</p>
+                                <!--========-->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                    stroke-width="3">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+                                </svg>
+                            </button>
+                            <!--====hidden menu here====-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ==========section 002========== -->
+            <section>
+                <!--========-->
+                <div class="max-w-screen-sm mx-auto px-4 sm:px-0 pb-16 pt-10">
+                    <!--========-->
+                    <div>
+                        <!--========-->
+                        <h1 class=" text-2xl mb-8">Extra Vragen (2/3)</h1>
+                    </div>
+                    <!--========-->
+                    <form class="mt-10" action="#">
+                        <!--====Deine Zahngesundheit====-->
+                        <p class="font-bold mb-4">Deine Zahngesundheit</p>
+                        <!--========-->
+                        <div class="mb-8">
+                            <!--========-->
+                            <span class="pb-3 text-sm text-gray-600 block">Besteht derzeit eine Schwangerschaft? <sup class="text-red-600">*</sup></span>
+                            <!--========-->
+                            <div class=" flex items-center space-x-2.5 mb-2">
+                                <!--========-->
+                                <input type="radio" name="radio1" class="h-4 w-4 cursor-pointer appearance-none outline-none rounded-full border checked:border-[6px] checked:border-blue-600" checked>
+                                <p>Ja</p>
+                            </div>
+                            <!--========-->
+                            <div class=" flex items-center space-x-2.5 text-gray-600">
+                                <!--========-->
+                                <input type="radio" name="radio1" class="h-4 w-4 cursor-pointer appearance-none outline-none rounded-full border checked:border-[6px] checked:border-blue-600">
+                                <!--========-->
+                                <p>Nein</p>
+                            </div>
+                        </div>
+                        <!--========-->
+                        <div class="mb-8">
+                            <!--========-->
+                            <span class="pb-3 text-sm text-gray-600 block">Leidest Du an einer parondontalen Erkrankung? (Symptome wie Zahnfleischentzündung, Zahnfleischblutung, schlechter
+                            Geschmack im Mund, wacklige Zähne)</span>
+                            <!--========-->
+                            <div class=" flex items-center space-x-2.5 mb-2">
+                                <!--========-->
+                                <input type="radio" name="radio2" class="h-4 w-4 cursor-pointer appearance-none outline-none rounded-full border checked:border-[6px] checked:border-blue-600" checked>
+                                <p>Ja</p>
+                            </div>
+                            <!--========-->
+                            <div class=" flex items-center space-x-2.5 text-gray-600">
+                                <!--========-->
+                                <input type="radio" name="radio2" class="h-4 w-4 cursor-pointer appearance-none outline-none rounded-full border checked:border-[6px] checked:border-blue-600">
+                                <!--========-->
+                                <p>Nein</p>
+                            </div>
+                        </div>
+                        <!--========-->
+                        <div class="mb-8">
+                            <!--========-->
+                            <span class="pb-3 text-sm text-gray-600 block">Leidest Du an akuter Karies? (Symptome wie Schmerzen beim Kauen von Süssigkeiten, sichtbare Löcher und schwarze Flecken
+                            auf Zähnen, Löcher oder Leerstellen auf Deinen Röntgenbildern)</span>
+                            <!--========-->
+                            <div class=" flex items-center space-x-2.5 mb-2">
+                                <!--========-->
+                                <input type="radio" name="radio3" class="h-4 w-4 cursor-pointer appearance-none outline-none rounded-full border checked:border-[6px] checked:border-blue-600" >
+                                <p>Ja</p>
+                            </div>
+                            <!--========-->
+                            <div class=" flex items-center space-x-2.5 text-gray-600">
+                                <!--========-->
+                                <input type="radio" name="radio3" class="h-4 w-4 cursor-pointer appearance-none outline-none rounded-full border checked:border-[6px] checked:border-blue-600" checked>
+                                <!--========-->
+                                <p>Nein</p>
+                            </div>
+                        </div>
+                        <!--========-->
+                        <div class="mb-8">
+                            <!--========-->
+                            <span class="pb-3 text-sm text-gray-600 block">Hast Du lockere Zähne? Kannst Du mit deiner Zunge / Finger Bewegungen eines Zahns von bspw. 1mm verursachen? <sup class="text-red-600">*</sup></span>
+                            <!--========-->
+                            <div class=" flex items-center space-x-2.5 mb-2">
+                                <!--========-->
+                                <input type="radio" name="radio4" class="h-4 w-4 cursor-pointer appearance-none outline-none rounded-full border checked:border-[6px] checked:border-blue-600" checked>
+                                <p>Ja</p>
+                            </div>
+                            <!--========-->
+                            <div class=" flex items-center space-x-2.5 text-gray-600">
+                                <!--========-->
+                                <input type="radio" name="radio4" class="h-4 w-4 cursor-pointer appearance-none outline-none rounded-full border checked:border-[6px] checked:border-blue-600">
+                                <!--========-->
+                                <p>Nein</p>
+                            </div>
+                        </div>
+                        <!--========-->
+                        <div class="mb-8">
+                            <!--========-->
+                            <span class="pb-3 text-sm text-gray-600 block">Hast Du Zahnversorgungen wie Kronen, Brücken, Implantate oder Veneers in Deinem Mund?</span>
+                            <!--========-->
+                            <div class=" flex items-center space-x-2.5 mb-2">
+                                <!--========-->
+                                <input type="radio" name="radio5"
+                                    class="h-4 w-4 cursor-pointer appearance-none outline-none rounded-full border checked:border-[6px] checked:border-blue-600"
+                                    >
+                                <p>Ja</p>
+                            </div>
+                            <!--========-->
+                            <div class=" flex items-center space-x-2.5 text-gray-600">
+                                <!--========-->
+                                <input type="radio" name="radio5"
+                                    class="h-4 w-4 cursor-pointer appearance-none outline-none rounded-full border checked:border-[6px] checked:border-blue-600">
+                                <!--========-->
+                                <p>Nein</p>
+                            </div>
+                        </div>
+                        <!--========-->
+                        <div class="mb-8">
+                            <!--========-->
+                            <span class="pb-3 text-sm text-gray-600 block">Hast Du Schmerzen am Kiefer oder Schmerzen beim Öffnen und Schliessen des Mundes?</span>
+                            <!--========-->
+                            <div class=" flex items-center space-x-2.5 mb-2">
+                                <!--========-->
+                                <input type="radio" name="radio5"
+                                    class="h-4 w-4 cursor-pointer appearance-none outline-none rounded-full border checked:border-[6px] checked:border-blue-600"
+                                    >
+                                <p>Ja</p>
+                            </div>
+                            <!--========-->
+                            <div class=" flex items-center space-x-2.5 text-gray-600">
+                                <!--========-->
+                                <input type="radio" name="radio5"
+                                    class="h-4 w-4 cursor-pointer appearance-none outline-none rounded-full border checked:border-[6px] checked:border-blue-600">
+                                <!--========-->
+                                <p>Nein</p>
+                            </div>
+                        </div>
+                        <!--====submit button====-->
+                        <div class=" flex justify-between items-center gap-3 pt-4">
+                            <!--====Zurück====-->
+                            <button class="outline-none h-12 sm:w-52 w-full rounded-full hover:bg-blue-600 hover:text-white bg-zinc-100 bg-transparent hover:border-blue-600 border-2 border-transparent duration-300">Zurück</button>
+                            <!--====Weiter====-->
+                            <button class="outline-none h-12 sm:w-52 w-full rounded-full bg-blue-600 text-white hover:text-black hover:bg-zinc-100  hover:border-blue-600 border-2 border-transparent duration-300">Weiter</button>
+                        </div>
+                    </form>     
+                </div>
+            </section> 
+        </main> 
+        <!--====================footer====================-->
+        <footer>
+            <!--========-->
+        </footer>
+    </body>
+</html>
